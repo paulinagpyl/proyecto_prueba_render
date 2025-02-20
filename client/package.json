@@ -1,0 +1,49 @@
+{
+  "name": "cornercoffeeshop",
+  "author": "Alvaro Riquelme - Dante Vasquez - Paulina González",
+  "description": "Proyecto Frontend Desafio Soft Jobs",
+  "private": true,
+  "version": "0.0.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite --open",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "apoyo-desafio-soft-jobs": "file:",
+    "axios": "^1.7.9",
+    "bootstrap": "^5.3.3",
+    "context": "^3.0.33",
+    "cornercoffeeshop": "file:",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.9",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.29.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "@vitejs/plugin-react-swc": "3.3.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "8.45.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-refresh": "0.4.3",
+    "postcss": "^8.5.2",
+    "standard": "17.1.0",
+    "tailwindcss": "^4.0.7",
+    "vite": "^4.5.3"
+  }
+}

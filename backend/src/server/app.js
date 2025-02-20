@@ -1,3 +1,5 @@
+
+
 const express = require('express')
 const cors = require('cors')
 
@@ -7,7 +9,13 @@ const { usuariosRouter, productosRouter, errors } = require('./routers/index.js'
 const app = express()
 const PORT = process.env.PORT ?? 3000
 
-app.use(cors())
+app.use(cors(
+        // {
+        // origin: [ 'CLIENT_URL'] =
+        // methodos :['GET', 'POST', 'PUT', 'PATCH', 'DELETE','OPTIONS'],
+        // allo}
+
+))
 app.use(express.json())
 
 app.use(serverLog)
